@@ -1,5 +1,5 @@
 create table carrinho (
-	id int not null auto_increment,
+	id int SERIAL,
 	nome varchar(30) not null,
     fabricante varchar(30)not null,
     pais_fabricacao varchar(30) not null,
