@@ -38,13 +38,13 @@ public class CarrinhoController {
 			return ResponseEntity.notFound().build();
 		}
 	}
-	
-	
+		
 	@PostMapping
 	public Carrinho adicionar(@RequestBody Carrinho carrinho){
-		
 		return carrinhoRepository.save(carrinho);
 	}
+	
+	//TODO Adicionar métodos de exclusão de carrinho e alteração
 	
 	
 	
