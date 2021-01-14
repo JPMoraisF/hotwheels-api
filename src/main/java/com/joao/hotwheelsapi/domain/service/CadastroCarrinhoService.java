@@ -8,7 +8,7 @@ import com.joao.hotwheelsapi.domain.model.Carrinho;
 import com.joao.hotwheelsapi.domain.repository.CarrinhoRepository;
 
 @Service
-public class CarrinhoService {
+public class CadastroCarrinhoService {
 	
 	@Autowired CarrinhoRepository carrinhoRepository;
 
